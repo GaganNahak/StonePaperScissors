@@ -90,7 +90,7 @@ box-shadow:0 0  10px black ;
     text-align: center;
     margin-top: 50px;
  }
- @media only screen and (max-width: 350px){
+ @media only screen and (max-width: 400px){
 #cont{
    scale: 0.3;
 }
