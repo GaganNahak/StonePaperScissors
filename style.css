@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    background-color: darkturquoise;
+    align-content: center;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(204, 238, 156);
+}
+#CHOICES{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 50px;
+    
+}
+.choice:hover{
+cursor: pointer;
+box-shadow:0 0  10px black ;
+}
+ #stone{
+    background-color: gray;
+    color: white;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 80px;
+    text-align: center;
+    align-content: center;
+    -webkit-text-stroke: 0.3px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+ }
+ #paper{
+    background-color: rgba(255, 231, 145, 0.479);
+    color: rgb(255, 255, 255);
+    height: 10rem;
+    width: 10rem;
+    border-radius: 80px;
+    text-align: center;
+    align-content: center;
+    -webkit-text-stroke: 0.3px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+ }
+ #scissors{
+    background-color: rgb(255, 81, 33);
+    color: white;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 80px;
+    text-align: center;
+    align-content: center;
+    -webkit-text-stroke: 0.3px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+ }
+ #scoreBoard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+ }
+ #user{
+    font-size:  50px;
+    background-color: yellowgreen;
+    color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+ }
+ #com{
+    font-size:  50px;
+    background-color: rgb(255, 191, 0);
+    color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+ }
+ #inf{
+    font-size:  50px;
+    background-color: rgb(0, 191, 255);
+    color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 50px;
+ }
+ @media only screen and (max-width: 350px){
+#cont{
+   scale: 0.3;
+}
+ } 
